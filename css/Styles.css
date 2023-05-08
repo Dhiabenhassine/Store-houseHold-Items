@@ -1,0 +1,71 @@
+
+body{
+    margin: 0 auto
+}
+/* header */
+.landing-page{
+    padding:20px 40px ;
+    
+}
+header.header{
+    display: flex;
+    align-items: center;
+    
+}
+.menu-down{
+    color:white;
+    position: absolute;
+    bottom: 700px;
+}
+header.header img{
+    width: 80px;
+}
+section.top-page{
+    background: url("../images/bacground.jpg");
+    background-size: cover;
+    height: 1000px;
+    padding: 10px;
+}
+/*title*/
+.titre{
+font-family: cursive;
+color: white;
+font-size: 30px;
+
+;
+}
+/*navigation*/
+nav.nav{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+   font-family:inherit;
+    width: 400px;
+   margin-left: 30px;
+}
+nav.nav{
+    color: black;
+}
+
+/* Service */
+.Services{
+    display:flex;
+    justify-content: space-evenly;
+    margin: 90px;
+    
+}
+.delivery{
+   width: 150px; 
+   color: #4682B4;
+  
+}
+.Service-item{
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    align-items:center;
+    text-align: center;
+}
+.deliv-detail{
+    font-weight: bold;
+}
