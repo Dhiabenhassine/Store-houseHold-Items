@@ -1,6 +1,4 @@
-
-
-  $(".description+").click(function(){
-    var description = $(this).child('.description');
-    $("p").show();
-  });
+$(".description+").click(function () {
+  var description = $(this).children(".description");
+  $("p").show();
+});
